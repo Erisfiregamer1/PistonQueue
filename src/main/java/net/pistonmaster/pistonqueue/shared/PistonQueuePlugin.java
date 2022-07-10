@@ -118,7 +118,6 @@ public interface PistonQueuePlugin {
 
                     queueListener.setMainOnline(true);
                 } else {
-                    warning("Main Server is down!!!");
                     queueListener.setMainOnline(false);
                 }
                 isFirstRun.set(false);
